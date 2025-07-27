@@ -1,0 +1,19 @@
+{
+  "name": "snowflake-id-generator",
+  "version": "1.0.0",
+  "description": "Fast, customizable Snowflake ID generator for distributed systems. Supports custom epoch and machine ID.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "init:tsconfig": "tsc --init",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "packageManager": "yarn@4.9.1",
+  "dependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
